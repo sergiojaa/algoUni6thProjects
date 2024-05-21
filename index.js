@@ -9,6 +9,18 @@
 //> You will need to purchase 2 gallons of paint to cover 360 square feet.
 //გახსოვდეთ - გალონი საღებავის ნაწილის შეძენა არ შეგიძლიათ, რიცხვი მომდევნო მთელ რიცხვზე - მთელ გალონზე უნდა დაამრგვალოთ.
 
+// Prompt user for the width and length of the room
+// const roomWidth = Number(prompt('What is the width of the room?'));
+// const roomLength = Number(prompt('What is the length of the room?'));
+
+// const calculator = roomWidth * roomLength;
+
+// const averageGallon = 350;
+
+// const gallonsNeeded = Math.ceil(calculator / averageGallon);
+
+// console.log(`You will need to purchase ${gallonsNeeded} gallon(s) of paint to cover ${calculator} square feet.`);
+
 
 // პროექტი 20 - Self-Checkout - თვით-გადახდა
 //შექმენით მარტივი გადახდის სისტემა, რომლითაც მომხმარებელი შეძენილი პროდუქტების ფასს გამოითვლის. პროგრამამ input-ად უნდა 
@@ -27,11 +39,28 @@
 //Tax: $3.52
 // Total: $67.52
 //თქვენი პროგრამის input-ების, კალკულაციებისა და output-ების ნაწილები ერთმანეთისგან გამიჯნეთ.
+// let price1 = Number(prompt('enter the price of item1'))
+// let amount1 = Number(prompt('enter the amount of item1'))
+// let sum1 = price1 * amount1
 
+// let price2 = Number(prompt('enter the price of item2'))
+// let amount2 = Number(prompt('enter the amount of item2'))
+// let sum2 = price2 * amount2
+
+// let price3 = Number(prompt('enter the price of item3'))
+// let amount3 = Number(prompt('enter the amount of item3'))
+// let sum3 = price3 * amount3
+
+// const subPrice = sum1 + sum2 + sum3
+// const subTax = subPrice * 5.5 / 100
+// const sumEverything = subPrice + subTax
+
+// console.log(`the price is ${subPrice}`)
+// console.log(`the tax is ${subTax}`)
+// console.log(`you have to pay ${sumEverything}`)
 
 //პროექტი 21 - Currency Conversion - ვალუტის კონვერტაცია
 //ზოგჯერ შეიძლება დაგჭირდეთ ვალუტის გაცვლის კურსებთან შეხება და უნდა დარწმუნდეთ, რომ თქვენი გამოთვლები მაქსიმალურად ზუსტია.
-
 //დაწერეთ პროგრამა, რომელიც გარდაქმნის ვალუტას. კერძოდ, გადააკეთეთ ევრო აშშ დოლარში. მოითხოვეთ თანხის რაოდენობა ევროში და ევროს მიმდინარე კურსი. ამობეჭდეთ ახალი თანხა  დოლარში.
 
 //ვალუტის კონცერტაციის ფორმულაა:
